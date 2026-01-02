@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Navaj Digital Marketing and Social Media Management</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Navaj Digital Marketing and Social Media Management - Cinematic video, graphic design, animation, social media promotion and ads."
+  />
+    <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    referrerpolicy="no-referrer"
+  />
+  </head>
+<body>
+  <!-- NAVBAR -->
+  <header>
+    <div class="container nav">
+      <div class="logo">
+        <div class="logo-badge">N</div>
+        <div>
+          <div class="logo-text">NA Production</div>
+          <div class="logo-subtitle">Cinematic video & social media</div>
+        </div>
+      </div>
+
+      <nav>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+        <div class="nav-links" id="navLinks">
+          <a href="#services">Services</a>
+          <a href="#portfolio">Work</a>
+          <a href="#about">About</a>
+          <a href="#testimonials">Clients</a>
+          <a href="#contact">Contact</a>
+          <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+            Book a free consultation
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <div class="pill">
+            <span class="pill-dot"></span>
+            <span>Now taking projects for this month</span>
+            <span class="pill-cta">Get your free video & social audit →</span>
+          </div>
+
+          <h1 class="hero-title">
+            We create <span class="gradient">cinematic content</span> that
+            grows your brand online.
+          </h1>
+          <p class="hero-subtitle">
+            NA Production and Social Media Management helps brands
+            stand out with cinematic videos, bold designs, animations,
+            powerful promotions and high-converting ads.
+          </p>
+
+          <div class="hero-actions">
+            <button
+              class="btn-primary"
+              onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})"
+            >
+              Get a custom quote
+              <i class="fa-solid fa-bolt"></i>
+            </button>
+            <button
+              class="btn-ghost"
+              onclick="document.getElementById('portfolio').scrollIntoView({behavior:'smooth'})"
+            >
+              Watch our work
+              <i class="fa-solid fa-play"></i>
+            </button>
+          </div>
+
+          <div class="hero-metas">
+            <div class="meta-block">
+              <span class="meta-label">Videos delivered</span>
+              <span class="meta-value">100+ cinematic edits</span>
+            </div>
+            <div class="meta-block">
+              <span class="meta-label">Best for</span>
+              <span class="meta-value">Brands, creators & businesses</span>
+            </div>
+            <div class="meta-block">
+              <span class="meta-label">Location</span>
+              <span class="meta-value">Kadegaon · Sangli · Maharashtra</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Content performance snapshot">
+          <div class="hero-card-tag">Recent project highlights</div>
+
+          <div class="hero-kpi-grid">
+            <div class="hero-kpi">
+              <div class="hero-kpi-title">Cinematic reel</div>
+              <div class="hero-kpi-value">350K+ views</div>
+              <div class="hero-kpi-pill">
+                <i class="fa-solid fa-arrow-trend-up"></i>
+                Organic reach boost
+              </div>
+            </div>
+            <div class="hero-kpi">
+              <div class="hero-kpi-title">Ad campaign</div>
+              <div class="hero-kpi-value">3.8x ROI</div>
+              <div class="hero-kpi-pill">
+                <i class="fa-solid fa-bullhorn"></i>
+                More leads, lower cost
+              </div>
+            </div>
+            <div class="hero-kpi">
+              <div class="hero-kpi-title">Brand feed</div>
+              <div class="hero-kpi-value">+210% saves</div>
+              <div class="hero-kpi-pill">
+                <i class="fa-solid fa-heart"></i>
+                High engagement
+              </div>
+            </div>
+            <div class="hero-kpi">
+              <div class="hero-kpi-title">Animated ad</div>
+              <div class="hero-kpi-value">2x clicks</div>
+              <div class="hero-kpi-pill">
+                <i class="fa-solid fa-clapperboard"></i>
+                Better attention
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card-footer">
+            <div>
+              <div style="font-size: 0.78rem; color: #e5e7eb; margin-bottom: 0.1rem;">
+                Trusted by local & online brands
+              </div>
+              <div style="font-size: 0.75rem;">
+                Shops · Clinics · Creators · Startups
+              </div>
+            </div>
+            <div class="hero-avatar-group">
+              <div class="hero-avatar"></div>
+              <div class="hero-avatar"></div>
+              <div class="hero-avatar"></div>
+              <div class="hero-avatar more">+10</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+   
+
+<!-- ===== SERVICE SECTION ===== -->
+ <section id="services">
+<section class="services">
+  <h2>Our Videos</h2>
+
+  <div class="insta-grid">
+
+    <blockquote class="instagram-media"
+      data-instgrm-permalink="https://www.instagram.com/reel/DQnsRQFj8g8/?igsh=MThwcWJlbWYxajV3YQ==">
+    </blockquote>
+
+    <blockquote class="instagram-media"
+      data-instgrm-permalink="https://www.instagram.com/reel/DPJ32JBD3q3/?igsh=eHZ0MDhsOWNjZGFy">
+    </blockquote>
+
+    <blockquote class="instagram-media"
+      data-instgrm-permalink="https://www.instagram.com/reel/DSaJDFYD313/?igsh=MXZ4eW1pZXcxZTU3bg==">
+    </blockquote>
+
+  </div>
+
+</section>
+<script async src="https://www.instagram.com/embed.js"></script>
+
+<!-- ===== VIDEO POPUP ===== -->
+<div id="videoPopup" class="video-popup">
+  <button class="back-btn" onclick="closeVideo()">← Back</button>
+  <button class="mute-btn" onclick="toggleMute()">Mute</button>
+  <video id="popupVideo" controls></video>
+</div>
+
+
+
+        <div class="stats-strip">
+          <div class="stats-strip-main">
+            Need regular content? We offer monthly packages for
+            <strong>reels, posts, stories & ads</strong> at a fixed cost.
+          </div>
+          <div class="stats-strip-items">
+            <div>
+              <div class="stats-item-label">Best for</div>
+              <div class="stats-item-value">Shops · Clinics · Creators</div>
+            </div>
+            <div>
+              <div class="stats-item-label">Languages</div>
+              <div class="stats-item-value">English · Hindi · Marathi</div>
+            </div>
+            <div>
+              <div class="stats-item-label">Delivery</div>
+              <div class="stats-item-value">Online & in-person (local)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO / SAMPLE WORK -->
+  
+
+<section id="portfolio">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Sample work</div>
+      <h2 class="section-title">Preview of what we create</h2>
+      <p class="section-description">Click any card to preview related videos. These are demo case studies.</p>
+    </div>
+
+    <div class="portfolio-grid">
+      <article class="project-card" onclick="openModal('wedding')">
+        <div class="project-image"><img src="images/wed.jpg" alt="Wedding"></div>
+        <div class="project-body">
+          <div class="project-name">Wedding Shoots</div>
+          <div class="project-category">Cinematic video • Event</div>
+          <p class="project-desc">Emotional, cinematic wedding reels capturing the couple’s story, rituals, and celebration moments.</p>
+          <div class="project-tags"><san class="project-tag">Wedding</span><span class="project-tag">Reel</span><span class="project-tag">Instagram</span></div>
+        </div>
+      </article>
+
+      <article class="project-card" onclick="openModal('car')">
+        <div class="project-image"><img src="images/car.jpg" alt="Car"></div>
+        <div class="project-body">
+          <div class="project-name">Car Cinematic Video</div>
+          <div class="project-category">Cinematic video • Automotive</div>
+          <p class="project-desc">Stylish cinematic shots showcasing cars with dynamic angles and trending music.</p>
+          <div class="project-tags"><span class="project-tag">Car</span><span class="project-tag">Cinematic</span><span class="project-tag">Instagram</span></div>
+        </div>
+      </article>
+
+      
+
+      <article class="project-card" onclick="openModal('festival')">
+        <div class="project-image"><img src="images/festivals.jpg" alt="Festival"></div>
+        <div class="project-body">
+          <div class="project-name">Festivals</div>
+          <div class="project-category">Cinematic video • Culture</div>
+          <p class="project-desc">Colorful cinematic reels capturing the joy and traditions of festivals.</p>
+          <div class="project-tags"><span class="project-tag">Festival</span><span class="project-tag">Culture</span><span class="project-tag">Instagram</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Modal -->
+
+
+  <!-- Video Modal -->
+<div id="videoModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">×</span>
+    <h2 id="modalTitle"></h2>
+
+    <div id="modalVideos" class="insta-grid"></div>
+  </div>
+</div>
+
+<!-- Instagram Embed Script (IMPORTANT) -->
+<script async src="https://www.instagram.com/embed.js"></script>
+
+
+
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow">About us</div>
+          <h2 class="section-title">Creative team behind the edits</h2>
+          <p class="section-description">
+            We blend video editing, design, animation and marketing so your
+            brand gets everything from one place.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Navaj Digital Marketing and Social Media Management was started
+              to help businesses and creators look <strong>cinematic and
+              professional</strong> on every platform – without needing a big
+              agency budget.
+            </p>
+            <p>
+              Whether you’re a local shop, clinic, influencer or startup, we
+              plan your content, design your posts, edit your videos and run
+              promotions that actually bring results.
+            </p>
+            <ul class="about-list">
+              <li>
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Dark cinematic video style with smooth transitions.</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Custom designs and animations matching your brand.</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Regular content packages for Instagram, Facebook & YouTube.</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Easy communication on WhatsApp & fast revisions.</span>
+              </li>
+            </ul>
+          </div>
+
+          <aside class="about-card">
+            <div class="about-pill">Why clients choose us</div>
+            <div class="about-highlight">We focus on quality + consistency.</div>
+            <p>
+              One viral video is not enough. We help you maintain a consistent,
+              cinematic and branded look across all your content so people
+              remember you.
+            </p>
+            <div class="about-meta">
+              <div>
+                <strong>Based in</strong><br />
+                Kadegaon, Sangli, Maharashtra
+              </div>
+              <div>
+                <strong>Work style</strong><br />
+                Online delivery for any location
+              </div>
+              <div>
+                <strong>Best for</strong><br />
+                Creators, shops, clinics & local brands
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow">Happy clients</div>
+          <h2 class="section-title">What people say about our work</h2>
+          <p class="section-description">
+            Replace these with real messages, WhatsApp screenshots or reviews
+            from your clients.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card">
+            <p class="testimonial-quote">
+              “Our reels look like professional ads now. People keep asking us
+              who edits our videos.”
+            </p>
+            <div class="testimonial-footer">
+              <div>
+                <div class="testimonial-name">Local Clothing Store</div>
+                <div class="testimonial-role">Business Owner</div>
+              </div>
+              <div class="testimonial-rating">
+                ★★★★★
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <p class="testimonial-quote">
+              “From posters to animation and ads, everything is handled by
+              them. Very easy to work together.”
+            </p>
+            <div class="testimonial-footer">
+              <div>
+                <div class="testimonial-name">Clinic in Sangli</div>
+                <div class="testimonial-role">Doctor</div>
+              </div>
+              <div class="testimonial-rating">
+                ★★★★★
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <p class="testimonial-quote">
+              “They understand social media trends and give good ideas for
+              content. Highly recommended.”
+            </p>
+            <div class="testimonial-footer">
+              <div>
+                <div class="testimonial-name">Content Creator</div>
+                <div class="testimonial-role">Influencer</div>
+              </div>
+              <div class="testimonial-rating">
+                ★★★★★
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow">Contact</div>
+          <h2 class="section-title">Let’s plan your next video or campaign</h2>
+          <p class="section-description">
+            Share some details about your brand and we’ll reply on WhatsApp or
+            email with ideas, pricing and sample work.
+          </p>
+        </div>
+
+        <div class="contact-wrap">
+          <form>
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Full name</label>
+                <input type="text" id="name" placeholder="Your name" />
+              </div>
+              <div class="field">
+                <label for="brand">Brand / business name</label>
+                <input type="text" id="brand" placeholder="Brand name" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="you@example.com" />
+              </div>
+              <div class="field">
+                <label for="phone">WhatsApp number</label>
+                <input type="tel" id="phone" placeholder="+91 ..." />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="service">What do you need help with?</label>
+              <select id="service">
+                <option value="">Select an option</option>
+                <option>Cinematic video</option>
+                <option>Graphic design</option>
+                <option>Animation</option>
+                <option>Social media promotion</option>
+                <option>Advertisement</option>
+                <option>Monthly content package</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="message">Tell us a bit about your project</label>
+              <textarea
+                id="message"
+                placeholder="Example: We need 10 reels per month / We want full social media management / We want ads for our new offer..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="margin-top: 0.4rem;">
+              Send enquiry
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+
+          <aside class="contact-side">
+            <div class="contact-highlight">
+              Message us directly on social media.
+            </div>
+            <p>
+              If you prefer, just send us a message with your requirements and
+              reference videos you like. We’ll reply with ideas and pricing.
+            </p>
+
+            <ul class="contact-list">
+              <li>
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>WhatsApp:+91 8261955179
+              </li>
+              <li>
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram: navajedit.x09</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email: navajattar6@gmail.com</span>
+              </li>
+            </ul>
+
+            <div class="social-row">
+              <div class="social-pill">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+              </div>
+              <div class="social-pill">
+                <i class="fa-brands fa-facebook"></i>
+                <span>Facebook</span>
+              </div>
+            
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-row">
+      <div>© <span id="year"></span> Navaj Digital Marketing and Social Media Management. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="#home">Back to top</a>
+        <a href="#contact">Book a call</a>
+      </div>
+    </div>
+  </footer>
+
+    <script src="script.js"></script>
